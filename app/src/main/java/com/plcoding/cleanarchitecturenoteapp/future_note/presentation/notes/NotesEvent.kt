@@ -1,6 +1,6 @@
 package com.plcoding.cleanarchitecturenoteapp.future_note.presentation.notes
 
-import android.provider.ContactsContract.CommonDataKinds.Note
+import com.plcoding.cleanarchitecturenoteapp.future_note.domain.model.Note
 import com.plcoding.cleanarchitecturenoteapp.future_note.domain.util.NoteOrder
 
 sealed class NotesEvent {
